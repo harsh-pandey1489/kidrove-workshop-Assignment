@@ -4,9 +4,9 @@ A responsive full-stack workshop landing page built using React.js, Express.js, 
 
 ## Live Demo
 
-Frontend: https://your-frontend-url.vercel.app
+Frontend:https://kidrove-workshop-assignment.vercel.app/
 
-Backend: https://your-backend-url.onrender.com
+Backend: https://kidrove-workshop-assignment.onrender.com
 
 ## Features
 
