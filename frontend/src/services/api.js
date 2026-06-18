@@ -1,7 +1,9 @@
+
+
 import axios from "axios";
 
 const API = axios.create({
-  baseURL:"https://kidrove-backend.onrender.com/api",
+  baseURL: "https://kidrove-workshop-assignment.onrender.com/api",
 });
 
 export default API;
