@@ -16,12 +16,14 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://kidrove-workshop-assignment.vercel.app",
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
+    origin: [
+      "https://kidrove-workshop-assignment.vercel.app",
+    ],
+    methods: ["GET", "POST"],
+    credentials: true,
   })
 );
-app.options("*", cors());
+
 app.use(express.json());
 
 app.use("/api", enquiryRoutes);
