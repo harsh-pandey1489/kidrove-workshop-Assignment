@@ -13,7 +13,16 @@ const app = express();
 
 connectDB();
 
-app.use(cors());
+
+app.use(
+  cors({
+    origin: [
+      "https://kidrove-workshop-assignment.vercel.app",
+    ],
+    methods: ["GET", "POST"],
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 
